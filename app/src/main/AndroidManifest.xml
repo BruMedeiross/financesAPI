@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.brunadev.tm">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:name=".BaseApplication"
         android:allowBackup="true"
-        android:usesCleartextTraffic="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -14,27 +12,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BOOKSTORE"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".view.SplashActivity"
-            android:exported="true" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-        </activity>
-
-        <activity
-            android:name=".view.DetailActivity"
-            android:exported="false" />
-        <activity
-            android:name=".view.MainActivity"
+            android:name=".presenter.Main.MainActivity"
             android:exported="true">
             <meta-data
                 android:name="android.app.seacheable"
-                android:resource="@xml/searchable"/>
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity
+            android:name=".presenter.Details.DetailActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

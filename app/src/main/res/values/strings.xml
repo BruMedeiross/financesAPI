@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">TM EVENTS</string>
-    <string name="not_found_text">Event Not Found</string>
-    <string name="search">Search</string>
+    <string name="app_name">RapidAPI</string>
+    <string name="not_found_text">Not Found</string>
+    <string name="api_error_text">Nenhuma informação retornada</string>
+    <string name="search">Search Index</string>
+    <string name="stock_options">Indexes</string>
 </resources>
