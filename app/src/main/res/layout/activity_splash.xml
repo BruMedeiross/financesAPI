@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="view.SplashActivity">
+    tools:context=".presenter.SplashActivity">
 
     <ImageView
         android:id="@+id/splash_img"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:alpha="0"
-        android:scaleType="centerInside"
-        android:src="@mipmap/logo"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_launcher_foreground"
         tools:alpha="1" />
 
 </FrameLayout>
