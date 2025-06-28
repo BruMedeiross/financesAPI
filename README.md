@@ -1,7 +1,3 @@
-# ticketmaster-Event
-
-The challenge is to create a simple Mobile app that exercises a REST-ful API.
-
 ## App Features
 * Show list of events
 * A simple plain text search
@@ -16,16 +12,6 @@ The challenge is to create a simple Mobile app that exercises a REST-ful API.
 - *TEST: Unit (JUnit) and automated (Espresso + Roboeletric)*
 
 # API 
-[ticketmaster Api](https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2//)
-
-## Library Used
-* [Live Data](https://developer.android.com/topic/libraries/architecture/livedata)
-* [View Model](https://developer.android.com/topic/libraries/architecture/viewmodel)
-* [Kotlin Coroutines](https://developer.android.com/kotlin/coroutines)
-* [Retrofit](https://square.github.io/retrofit/)
-* [Picaso](https://square.github.io/picasso/)
-* [Material](https://material.io/develop/android)
-* [Recyclerview](https://developer.android.com/guide/topics/ui/layout/recyclerview)
 
 
 **BRUNA MEDEIROS**
